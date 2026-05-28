@@ -97,14 +97,14 @@ const scoreEl=document.getElementById('score');
 const comboEl=document.getElementById('combo');
 const stepList=document.getElementById('stepList');
 const blocks=[
- {id:'doenjang', name:'된장찌개', file:'png/doenjang_open.png', x:0, y:14, w:5, h:2, note:'바닥 왼쪽. 가장 먼저 넣기'},
- {id:'rice', name:'공기밥', file:'png/rice_closed.png', x:6, y:14, w:2, h:2, note:'된장찌개 오른쪽'},
- {id:'meat', name:'숯불고기', file:'png/meat.png', x:0, y:10, w:5, h:2, note:'된장찌개 바로 위'},
- {id:'ssamjang', name:'쌈장 소스컵', file:'png/sauce_ssamjang.png', x:6, y:10, w:1, h:1, note:'고기 옆 소스컵 위'},
- {id:'saltpepper', name:'소금후추 소스컵', file:'png/sauce_saltpepper.png', x:6, y:11, w:1, h:1, note:'쌈장 아래'},
- {id:'side', name:'4칸반찬', file:'png/side_4compartment.png', x:0, y:6, w:4, h:2, note:'하단 위쪽'},
- {id:'veg', name:'야채팩', file:'png/vegetable_pack.png', x:5, y:5, w:2, h:3, note:'4칸반찬 옆에 세워 넣기'},
- {id:'gejang', name:'리뷰게장+명함', file:'png/review_gejang_card.png', x:0, y:1, w:6, h:2, note:'가장 위. 명함 꼭 확인'}
+ {id:'doenjang', name:'된장찌개', file:'a1.png', x:0, y:14, w:5, h:2, note:'바닥 왼쪽. 가장 먼저 넣기'},
+ {id:'rice', name:'공기밥', file:'a2.png', x:6, y:14, w:2, h:2, note:'된장찌개 오른쪽'},
+ {id:'meat', name:'숯불고기', file:'a3.png', x:0, y:10, w:5, h:2, note:'된장찌개 바로 위'},
+ {id:'ssamjang', name:'쌈장 소스컵', file:'a4.png', x:6, y:10, w:1, h:1, note:'고기 옆 소스컵 위'},
+ {id:'saltpepper', name:'소금후추 소스컵', file:'a5.png', x:6, y:11, w:1, h:1, note:'쌈장 아래'},
+ {id:'side', name:'4칸반찬', file:'a6.png', x:0, y:6, w:4, h:2, note:'하단 위쪽'},
+ {id:'veg', name:'야채팩', file:'a7.png', x:5, y:5, w:2, h:3, note:'4칸반찬 옆에 세워 넣기'},
+ {id:'gejang', name:'리뷰게장+명함', file:'a8.png', x:0, y:1, w:6, h:2, note:'가장 위. 명함 꼭 확인'}
 ];
 let current=0, active=null, score=0, combo=0, started=false, drag=null;
 function fitCell(){
