@@ -1,0 +1,20 @@
+{
+  "name": "최우영고기야",
+  "short_name": "최우영",
+  "start_url": "./?v=15",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "./icon-v15.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-v15.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
